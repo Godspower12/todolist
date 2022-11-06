@@ -3,8 +3,7 @@ import Form from './Components/Form';
 import TodoLists from './Components/TodoLists';
 import "./styles.css";
 function App() {
-
-const initialState = JSON.parse(localStorage.getItem('todos') || [])
+ const initialState = JSON.parse(localStorage.getItem('todos')) || [] ;
 
   const [inputs, setInputs] = useState('');
   const [todos, setTodos] = useState(initialState);
