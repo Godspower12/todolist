@@ -18,11 +18,18 @@ function App() {
       <div className="todo-wrapper">
      <div className="todoLists-container">
       <div className="todo-interface">
+      <div className="header">
+      <h2>Todolist</h2>
+      </div>
         <Form inputs = {inputs} setInputs = {setInputs} todos = {todos} setTodos = {setTodos} editTodos = {editTodos} setEditTodos = {setEditTodos} />
         <TodoLists todos = {todos} setTodos = {setTodos} editTodos = {editTodos} setEditTodos = {setEditTodos}/>
+     
       </div>
       </div>
-      
+      <div className="attribution">
+      <h4>developed by Gp</h4>
+
+     </div>
      </div>
     </div>
   );

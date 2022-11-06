@@ -155,3 +155,19 @@ form button:hover {
         font-size: 16px;
     }
 }
+.attribution {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: grey
+}
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.empty {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
